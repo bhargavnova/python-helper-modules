@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+__init__.pyc
+__init__.pyo
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# .vscode directory (Visual Studio Code IDE)
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Project-specific directories
+my_project_specific_directory/
+
+# Virtual Environment
+venv/
+env/
+
+# IDE files
+.idea/
+*.suo
+*.ntvs*
+
+# Miscellaneous
+*.db
+*.log
+*.sqlite3
+*.swp
+
+# Ignore pipenv virtual environment (if using Pipenv)
+Pipfile
+Pipfile.lock
