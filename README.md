@@ -1,4 +1,4 @@
-# Python Helper Modules
+# Python Helper Modules / Scripts
 
 Welcome to this inclusive and dynamic Python repository! Whether you're just starting your coding journey or you're a seasoned developer, this is the perfect place for you. Our mission is to create a comprehensive toolkit that empowers developers of all levels with useful Python modules and scripts.
 
