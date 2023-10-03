@@ -59,4 +59,5 @@ module_name.function_name(argument)
 
 # 🌟 Invaluable Contributors
 
+[![](https://avatars.githubusercontent.com/u/55001591?v=4&size=50)](https://github.com/Namatuzio)
 [![](https://avatars.githubusercontent.com/u/95626105?v=4&size=50)](https://github.com/avyuktsoni0731)
