@@ -2,7 +2,7 @@
 import aspose.words
 
 #file formats
-choose_format=["png", "jpeg", "jpg", "gif", "webp", "tiff", "pdf"]
+choose_format=["png", "jpeg", "jpg", "gif", "webp", "tiff"]
 
 #printing list to show popular options to user
 print(choose_format)
