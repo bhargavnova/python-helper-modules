@@ -2,4 +2,4 @@
 
 import random_sleep_time_module
 
-random_sleep_time_module.random_sleep_time()
+random_sleep_time_module.random_sleep_time(3, 5)
