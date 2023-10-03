@@ -13,7 +13,7 @@ def random_sleep_time(minTime, maxTime):
 
     while randomTime:                                                            # While looping for random time generated
         print("-> Now, Sleeping for", randomTime, "Seconds", end="\r")           # Sleep timer
-        time.sleep(randomTime)
+        time.sleep(1)
         randomTime-=1
 
         if (randomTime==0):                                                      # Breaking the loop at soon as the timer hits 0
