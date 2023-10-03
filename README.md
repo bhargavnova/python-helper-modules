@@ -56,3 +56,13 @@ module_name.function_name(argument)
 ```
 
 **Important Note**: Please Try to Make a Single Pull Request for a Single Script/Module.
+
+# 🌟 Invaluable Contributors
+
+<a href="https://github.com/Namatuzio" title=" 🎉 Thank you for your outstanding contribution Namatuzio">
+  <img src="https://avatars.githubusercontent.com/u/55001591?size=50" width="50" height="50">
+</a>
+&nbsp;
+<a href="https://github.com/avyuktsoni0731" title=" 🎉 Thank you for your outstanding contribution avyuktsoni0731">
+  <img src="https://avatars.githubusercontent.com/u/95626105?size=50">
+</a>
