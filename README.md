@@ -54,3 +54,5 @@ import module_name
 # Call a function from the module
 module_name.function_name(argument)
 ```
+
+**Important Note**: Please Try to Make a Single Pull Request for a Single Script/Module.
