@@ -34,7 +34,7 @@ To contribute, follow these steps:
 
 1. Fork this repository.
 2. Create a new folder with the name of your module.
-3. Inside this folder, include your Python helper module with appropriate documentation.
+3. Inside this folder, include your Python helper module with **appropriate documentation including README.md file**.
 4. Create a Pull Request with a clear description of your contribution.
 
 ## Example Module
