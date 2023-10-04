@@ -28,7 +28,7 @@ Remember, no contribution is too small! Every line of code makes a difference. L
 
 Happy coding!!
 
-==========================================================================================
+(: ============================================================================== :)
 
 ## Contributing Guidelines
 
@@ -42,9 +42,9 @@ To contribute, follow these steps:
 1. The folder name must be the same as the script name inside the folder. (`lower letter`, with `_` separation instead of space.)
 2. there should be only a single script, you can include code for the standalone script in the `if __name__ = "__main__":` block.
 3. The folder must contain `README.md` file and a `requirements.txt` file if needed.
+Refer `extract_images_from_pdf` in the repo, for a better understanding!! :)
 
-
-==========================================================================================
+(: ============================================================================== :)
 
 
 ## Example Module
