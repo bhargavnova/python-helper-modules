@@ -21,4 +21,4 @@ To use the Script, follow these steps:
 3. The script will show all running python programs along with the Process ID's and the location of the file and you can select one of id to stop.
 
 ## Dependencies
-- `psutil`: https://npcap.com/
+- `psutil`
