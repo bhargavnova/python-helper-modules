@@ -4,29 +4,31 @@ Welcome to this inclusive and dynamic Python repository! Whether you're just sta
 
 **How You Can Contribute**:
 
-_For Beginners_: New to coding? This is the perfect opportunity to learn and grow! You can start by adding simple, yet valuable, modules that help with everyday tasks.
+**🌱 For Beginners**: New to coding? This is the perfect opportunity to learn and grow! You can start by adding simple, yet valuable, modules that help with everyday tasks.
 
-_Intermediate Developers_: Dive in and contribute modules that demonstrate more advanced concepts. Your expertise will be invaluable to fellow developers.
+**🚀 Intermediate Developers**: Dive in and contribute modules that demonstrate more advanced concepts. Your expertise will be invaluable to fellow developers.
 
-_Advanced Developers_: Push the boundaries of what's possible with Python! Share your knowledge by creating high-level modules that showcase best practices and efficient coding techniques.
+**💡 Advanced Developers**: Push the boundaries of what's possible with Python! Share your knowledge by creating high-level modules that showcase best practices and efficient coding techniques.
 
 **Why Contribute**:
 
-_Hacktoberfest Ready_: This repository is specially curated for Hacktoberfest.
+- **Hacktoberfest Ready**: This repository is specially curated for Hacktoberfest.
+- **Learn and Collaborate**: Join a community of passionate developers. Learn from others, share your knowledge, and grow together.
+- **Make a Real Impact**: Your contributions will be used by developers around the world, making their lives easier and projects more efficient.
 
-_Learn and Collaborate_: Join a community of passionate developers. Learn from others, share your knowledge, and grow together.
+**How to Get Started**:
 
-_Make a Real Impact_: Your contributions will be used by developers around the world, making their lives easier and projects more efficient.
+1. Fork this repository.
+2. Add your Python module or script.
+3. Submit a pull request.
+4. Please follow the `Guidelines` mentioned.
+5. Join our community discussions and meet other like-minded developers.
 
-How to Get Started:
-
-Fork this repository.
-Add your Python module or script.
-Submit a pull request.
-Join our community discussions and meet other like-minded developers.
 Remember, no contribution is too small! Every line of code makes a difference. Let's build something amazing together!
 
-Happy coding!
+Happy coding!!
+
+==========================================================================================
 
 ## Contributing Guidelines
 
@@ -36,6 +38,14 @@ To contribute, follow these steps:
 2. Create a new folder with the name of your module.
 3. Inside this folder, include your Python helper module with **appropriate documentation including README.md file**.
 4. Create a Pull Request with a clear description of your contribution.
+### Important New Update
+1. The folder name must be the same as the script name inside the folder. (`lower letter`, with `_` separation instead of space.)
+2. there should be only a single script, you can include code for the standalone script in the `if __name__ = "__main__":` block.
+3. The folder must contain `README.md` file and a `requirements.txt` file if needed.
+
+
+==========================================================================================
+
 
 ## Example Module
 
@@ -77,4 +87,8 @@ module_name.function_name(argument)
 &nbsp;
 <a href="https://github.com/Zhreyu" title=" 🎉 Thank you for your outstanding contribution Zhreyu">
   <img src="https://avatars.githubusercontent.com/u/96978606?size=50" width="50" height="50">
+</a>
+&nbsp;
+<a href="https://github.com/Siddharth9890" title=" 🎉 Thank you for your outstanding contribution Siddharth9890">
+  <img src="https://avatars.githubusercontent.com/u/63333707?size=50" width="50" height="50">
 </a>
