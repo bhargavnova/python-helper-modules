@@ -64,5 +64,17 @@ module_name.function_name(argument)
 </a>
 &nbsp;
 <a href="https://github.com/avyuktsoni0731" title=" 🎉 Thank you for your outstanding contribution avyuktsoni0731">
-  <img src="https://avatars.githubusercontent.com/u/95626105?size=50">
+  <img src="https://avatars.githubusercontent.com/u/95626105?size=50" width="50" height="50">
+</a>
+&nbsp;
+<a href="https://github.com/chankruze" title=" 🎉 Thank you for your outstanding contribution chankruze">
+  <img src="https://avatars.githubusercontent.com/u/29806845?size=50" width="50" height="50">
+</a>
+&nbsp;
+<a href="https://github.com/stktyagi" title=" 🎉 Thank you for your outstanding contribution stktyagi">
+  <img src="https://avatars.githubusercontent.com/u/142912014?size=50" width="50" height="50">
+</a>
+&nbsp;
+<a href="https://github.com/Zhreyu" title=" 🎉 Thank you for your outstanding contribution Zhreyu">
+  <img src="https://avatars.githubusercontent.com/u/96978606?size=50" width="50" height="50">
 </a>
