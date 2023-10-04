@@ -25,7 +25,7 @@ To use the Network Device Discovery Script, follow these steps:
    import network_discovery
    
    if __name__ == "__main__":
-       target_ip_range = "192.168.29.1/24"
+       target_ip_range = "xxx.xxx.xxx.xxx/24"
    
        print("Scanning for devices on the network...")
        devices = network_discovery.scan(target_ip_range)
