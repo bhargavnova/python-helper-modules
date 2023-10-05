@@ -46,15 +46,3 @@ This will use the custom field mapping to create the CSV.
 ## Error Handling
 
 The script includes error handling for cases where the input JSON file is not found or if there's an issue with the JSON format. If any errors occur during the conversion process, you will receive an error message specifying the issue.
-
-## License
-
-This script is provided under the MIT License. Feel free to use and modify it as needed for your projects.
-
-## Author
-
-This script was created by [Your Name]. You can reach out to me at [Your Email] for any questions or feedback.
-
----
-
-Replace `[Your Name]` and `[Your Email]` with your own information. You can also include additional sections, such as "Contributing," "Acknowledgments," or "Usage Examples," depending on your project's needs.
