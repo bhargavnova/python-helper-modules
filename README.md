@@ -1,3 +1,6 @@
+<img src="._repo_assets/python-helper-modules.png" width="100%">
+<br/>
+
 [![Hacktoberfest 2023](https://img.shields.io/badge/Hacktoberfest-2023-blueviolet.svg)](https://hacktoberfest.com/participation/) 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 <!--[![GitHub stars](https://img.shields.io/github/stars/bhargavnova/python-helper-modules.svg?style=social&label=Star&maxAge=2592000)](https://github.com/your-username/your-repository) -->
@@ -110,3 +113,6 @@ module_name.function_name(argument)
 <a href="https://github.com/Siddharth9890" title=" 🎉 Thank you for your outstanding contribution Siddharth9890">
   <img src="https://avatars.githubusercontent.com/u/63333707?size=50" width="50" height="50">
 </a>
+
+<br/>
+<img src="._repo_assets/wave.svg" width="100%">
