@@ -86,6 +86,8 @@ import module_name
 module_name.function_name(argument)
 ```
 
+<br/>
+
 **Important Note**: Please Try to Make a Single Pull Request for a Single Script/Module.
 
 # Invaluable Contributors 🌟🌟🌟
@@ -124,6 +126,10 @@ module_name.function_name(argument)
 &nbsp;
 <a href="https://github.com/AaroneGeorge" title=" 🎉 Thank you for your outstanding contribution AaroneGeorge">
   <img src="https://avatars.githubusercontent.com/u/96471433?size=50" width="50" height="50">
+</a>
+&nbsp;
+<a href="https://github.com/namansharma18899" title=" 🎉 Thank you for your outstanding contribution namansharma18899">
+  <img src="https://avatars.githubusercontent.com/u/37952726?size=50" width="50" height="50">
 </a>
 
 <br/>
