@@ -1,3 +1,21 @@
+[![Hacktoberfest 2023](https://img.shields.io/badge/Hacktoberfest-2023-blueviolet.svg)](https://hacktoberfest.com/participation/) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+<!--[![GitHub stars](https://img.shields.io/github/stars/bhargavnova/python-helper-modules.svg?style=social&label=Star&maxAge=2592000)](https://github.com/your-username/your-repository) -->
+
+[![GitHub issues](https://img.shields.io/github/issues/bhargavnova/python-helper-modules.svg)](https://github.com/bhargavnova/python-helper-modules/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/bhargavnova/python-helper-modules.svg)](https://github.com/bhargavnova/python-helper-modules/pulls)
+[![GitHub contributors](https://img.shields.io/github/contributors/bhargavnova/python-helper-modules.svg)](https://github.com/bhargavnova/python-helper-modules/graphs/contributors)
+
+[![Skill Level: Beginner](https://img.shields.io/badge/Skill%20Level-Beginner-green)](https://github.com/bhargavnova/python-helper-modules/)
+[![Skill Level: Intermediate](https://img.shields.io/badge/Skill%20Level-Intermediate-yellow)](https://github.com/bhargavnova/python-helper-modules/)
+[![Skill Level: Advanced](https://img.shields.io/badge/Skill%20Level-Advanced-red)](https://github.com/bhargavnova/python-helper-modules/)
+[![Language: Python](https://img.shields.io/badge/Language-Python-blueviolet)](https://www.python.org/)
+[![Category: Scripting](https://img.shields.io/badge/Category-Scripting-blueviolet)](https://github.com/bhargavnova/python-helper-modules/)
+[![Category: Automation](https://img.shields.io/badge/Category-Automation-blueviolet)](https://github.com/bhargavnova/python-helper-modules/)
+[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-blueviolet)](https://github.com/bhargavnova/python-helper-modules/)
+
+
+
 # Python Helper Modules / Scripts
 
 Welcome to this inclusive and dynamic Python repository! Whether you're just starting your coding journey or you're a seasoned developer, this is the perfect place for you. Our mission is to create a comprehensive toolkit that empowers developers of all levels with useful Python modules and scripts.
