@@ -45,13 +45,13 @@ Welcome to this inclusive and dynamic Python repository! Whether you're just sta
 4. Please follow the `Guidelines` mentioned.
 5. Join our community discussions and meet other like-minded developers.
 
-Remember, no contribution is too small! Every line of code makes a difference. Let's build something amazing together!
+<br/>
 
-Happy coding!!
+> Remember, no contribution is too small! Every line of code makes a difference. Let's build something amazing together! Happy coding!!
 
-(: ============================================================================== :)
+<br/>
 
-## Contributing Guidelines
+## Contributing Guidelines 🤝
 
 To contribute, follow these steps:
 
@@ -65,10 +65,10 @@ To contribute, follow these steps:
 3. The folder must contain `README.md` file and a `requirements.txt` file if needed.
 Refer `extract_images_from_pdf` in the repo, for a better understanding!! :)
 
-(: ============================================================================== :)
+<br/>
 
 
-## Example Module
+## Example Module 📦
 
 ### Module Name
 
@@ -88,7 +88,7 @@ module_name.function_name(argument)
 
 **Important Note**: Please Try to Make a Single Pull Request for a Single Script/Module.
 
-# 🌟 Invaluable Contributors
+# Invaluable Contributors 🌟🌟🌟
 
 <a href="https://github.com/Namatuzio" title=" 🎉 Thank you for your outstanding contribution Namatuzio">
   <img src="https://avatars.githubusercontent.com/u/55001591?size=50" width="50" height="50">
