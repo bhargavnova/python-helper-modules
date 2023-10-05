@@ -3,7 +3,7 @@
 
 [![Hacktoberfest 2023](https://img.shields.io/badge/Hacktoberfest-2023-blueviolet.svg)](https://hacktoberfest.com/participation/) 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
-<!--[![GitHub stars](https://img.shields.io/github/stars/bhargavnova/python-helper-modules.svg?style=social&label=Star&maxAge=2592000)](https://github.com/your-username/your-repository) -->
+[![GitHub stars](https://img.shields.io/github/stars/bhargavnova/python-helper-modules.svg?style=social&label=Star&maxAge=2592000)](https://github.com/bhargavnova/python-helper-modules)
 
 [![GitHub issues](https://img.shields.io/github/issues/bhargavnova/python-helper-modules.svg)](https://github.com/bhargavnova/python-helper-modules/issues)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/bhargavnova/python-helper-modules.svg)](https://github.com/bhargavnova/python-helper-modules/pulls)
