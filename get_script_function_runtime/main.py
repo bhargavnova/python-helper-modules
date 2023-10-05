@@ -1,4 +1,4 @@
-import runtime_calculator
+import get_script_function_runtime as runtime_calculator
 import time
 
 @runtime_calculator.measure_runtime
