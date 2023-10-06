@@ -34,10 +34,10 @@
             </linearGradient>
         </defs>
         <path d="" fill="url(#linear)" opacity="0.4">
-            <animate attributeName="d" dur="20s" repeatCount="indefinite" keyTimes="0;0.333;0.667;1" calcmod="spline" keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1" begin="0s" values="M0 0L 0 30Q 213.5 70 427 40T 854 65L 854 0 Z;M0 0L 0 55Q 213.5 70 427 50T 854 40L 854 0 Z;M0 0L 0 75Q 213.5 45 427 75T 854 40L 854 0 Z;M0 0L 0 30Q 213.5 70 427 40T 854 65L 854 0 Z"/>
+            <animate attributeName="d" dur="10s" repeatCount="indefinite" keyTimes="0;0.333;0.667;1" calcmod="spline" keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1" begin="0s" values="M0 0L 0 30Q 213.5 70 427 40T 854 65L 854 0 Z;M0 0L 0 55Q 213.5 70 427 50T 854 40L 854 0 Z;M0 0L 0 75Q 213.5 45 427 75T 854 40L 854 0 Z;M0 0L 0 30Q 213.5 70 427 40T 854 65L 854 0 Z"/>
         </path>
         <path d="" fill="url(#linear)" opacity="0.4">
-            <animate attributeName="d" dur="20s" repeatCount="indefinite" keyTimes="0;0.333;0.667;1" calcmod="spline" keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1" begin="-10s" values="M0 0L 0 45Q 213.5 90 427 60T 854 70L 854 0 Z;M0 0L 0 60Q 213.5 30 427 30T 854 50L 854 0 Z;M0 0L 0 55Q 213.5 35 427 60T 854 75L 854 0 Z;M0 0L 0 45Q 213.5 90 427 60T 854 70L 854 0 Z"/>
+            <animate attributeName="d" dur="5s" repeatCount="indefinite" keyTimes="0;0.333;0.667;1" calcmod="spline" keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1" begin="-10s" values="M0 0L 0 45Q 213.5 90 427 60T 854 70L 854 0 Z;M0 0L 0 60Q 213.5 30 427 30T 854 50L 854 0 Z;M0 0L 0 55Q 213.5 35 427 60T 854 75L 854 0 Z;M0 0L 0 45Q 213.5 90 427 60T 854 70L 854 0 Z"/>
         </path>
     </g>
 </svg>
