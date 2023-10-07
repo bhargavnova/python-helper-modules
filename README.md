@@ -91,7 +91,7 @@ module_name.function_name(argument)
 **Important Note**: Please Try to Make a Single Pull Request for a Single Script/Module.
 
 # Invaluable Contributors 🌟🌟🌟
-
+&nbsp;
 <a href="https://github.com/Namatuzio" title=" 🎉 Thank you for your outstanding contribution Namatuzio">
   <img src="https://avatars.githubusercontent.com/u/55001591?size=50" width="50" height="50">
 </a>
@@ -138,6 +138,10 @@ module_name.function_name(argument)
 &nbsp;
 <a href="https://github.com/Mrinank-Bhowmick" title=" 🎉 Thank you for your outstanding contribution Mrinank-Bhowmick">
   <img src="https://avatars.githubusercontent.com/u/77621953?v=4" width="50" height="50">
+</a>
+&nbsp;
+<a href="https://github.com/kom-senapati" title=" 🎉 Thank you for your outstanding contribution kom-senapati">
+  <img src="https://avatars.githubusercontent.com/u/92045934?size=50" width="50" height="50">
 </a>
 
 <br/>
