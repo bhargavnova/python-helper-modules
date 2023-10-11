@@ -143,6 +143,10 @@ module_name.function_name(argument)
 <a href="https://github.com/kom-senapati" title=" 🎉 Thank you for your outstanding contribution kom-senapati">
   <img src="https://avatars.githubusercontent.com/u/92045934?size=50" width="50" height="50">
 </a>
+&nbsp;
+<a href="https://github.com/VishalS-HK" title=" 🎉 Thank you for your outstanding contribution VishalS-HK">
+  <img src="https://avatars.githubusercontent.com/u/99802796?size=50" width="50" height="50">
+</a>
 
 <br/>
 <img src="._repo_assets/wave.svg" width="100%">
