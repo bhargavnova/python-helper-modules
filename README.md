@@ -143,6 +143,7 @@ module_name.function_name(argument)
 <a href="https://github.com/kom-senapati" title=" 🎉 Thank you for your outstanding contribution kom-senapati">
   <img src="https://avatars.githubusercontent.com/u/92045934?size=50" width="50" height="50">
 </a>
+<hr/>
 &nbsp;
 <a href="https://github.com/VishalS-HK" title=" 🎉 Thank you for your outstanding contribution VishalS-HK">
   <img src="https://avatars.githubusercontent.com/u/99802796?size=50" width="50" height="50">
@@ -150,6 +151,10 @@ module_name.function_name(argument)
 &nbsp;
 <a href="https://github.com/SaranshBaniyal" title=" 🎉 Thank you for your outstanding contribution SaranshBaniyal">
   <img src="https://avatars.githubusercontent.com/u/23008139?size=50" width="50" height="50">
+</a>
+&nbsp;
+<a href="https://github.com/ananyapillai72" title=" 🎉 Thank you for your outstanding contribution ananyapillai72">
+  <img src="https://avatars.githubusercontent.com/u/98609292?size=50" width="50" height="50">
 </a>
 
 <br/>
