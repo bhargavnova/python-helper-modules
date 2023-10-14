@@ -1,0 +1,61 @@
+1
+00:00:00,000 --> 00:00:02,000
+The Zen of Python, by Tim Peters
+
+2
+00:00:03,000 --> 00:00:05,000
+Beautiful is better than ugly.
+3
+00:00:06,000 --> 00:00:08,000
+Explicit is better than implicit.
+4
+00:00:09,000 --> 00:00:11,000
+Simple is better than complex.
+5
+00:00:12,000 --> 00:00:14,000
+Complex is better than complicated.
+6
+00:00:15,000 --> 00:00:17,000
+Flat is better than nested.
+7
+00:00:18,000 --> 00:00:20,000
+Sparse is better than dense.
+8
+00:00:21,000 --> 00:00:23,000
+Readability counts.
+9
+00:00:24,000 --> 00:00:26,000
+Special cases aren't special enough to break the rules.
+10
+00:00:27,000 --> 00:00:29,000
+Although practicality beats purity.
+11
+00:00:30,000 --> 00:00:32,000
+Errors should never pass silently.
+12
+00:00:33,000 --> 00:00:35,000
+Unless explicitly silenced.
+13
+00:00:36,000 --> 00:00:38,000
+In the face of ambiguity, refuse the temptation to guess.
+14
+00:00:39,000 --> 00:00:41,000
+There should be one-- and preferably only one --obvious way to do it.
+15
+00:00:42,000 --> 00:00:44,000
+Although that way may not be obvious at first unless you're Dutch.
+16
+00:00:45,000 --> 00:00:47,000
+Now is better than never.
+17
+00:00:48,000 --> 00:00:50,000
+Although never is often better than *right* now.
+18
+00:00:51,000 --> 00:00:53,000
+If the implementation is hard to explain, it's a bad idea.
+19
+00:00:54,000 --> 00:00:56,000
+If the implementation is easy to explain, it may be a good idea.
+20
+00:00:57,000 --> 00:00:59,000
+Namespaces are one honking great idea -- let's do more of those!

@@ -1,0 +1,1 @@
+1. srt-lrc (convert .srt to .lrc)
