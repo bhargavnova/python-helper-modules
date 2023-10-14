@@ -49,7 +49,7 @@ mapping = {
 
 def main():
   # Load the JSON data.
-  with open("A:/python-helper-modules/json_to_csv/json_data.json", "r") as json_file:
+  with open("json_data.json", "r") as json_file:
     json_data = json.load(json_file)
 
   # Convert the JSON data to CSV format.
