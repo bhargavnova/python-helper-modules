@@ -90,7 +90,7 @@ def move_files_to_folders(folder_path: str, files_by_extension: dict) -> None:
 
 
 if __name__ == "__main__":
-    folder = "/path/to/your/folder"  # Replace with your folder path
+    folder = "./"  # Replace with your folder path
     creator = True  # Set to True to create separate folders
     move = True  # Set to True to move files
     exclude_ext = ['py']  # List of extensions to exclude
