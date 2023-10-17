@@ -15,15 +15,16 @@ Before using this script, ensure you have the following:
 
 ### Running the Script
 
-Provide the directory in which you want to search in,then the list of keywords.
-The third paramter decides whether to return a list of files with matching keywords, if no value or 0 is passed. When value 1 is passed, it returns a dictionary, whose key are the keywords and corresponding value is a list of files that contain that keyword. If no match is found, then script returns 0.
-The fourth parameter, when passed boolean value False, performs case insensitive search. Default is True, i.e, by default the search is case sensitive.
+- Provide the directory in which you want to search in, then the list of keywords.
+- The third paramter decides whether to return a list of files with matching keywords, if no value or 0 is passed. When value 1 is passed, it returns a dictionary, whose key are the keywords and corresponding value is a list of files that contain that keyword. If no match is found, then script returns 0.
+- The fourth parameter, when passed boolean value False, performs case insensitive search. Default is True, i.e, by default the search is case sensitive.
 
 
 
 ```python
-input_file = 'sample-pdf-with-images.pdf'
-python pdf_image_extractor.py
+thepath = "sample/path/tofiles"
+keywords = ["word1","word2"]
+def find_files_by_keyword(path, keywords,feature=0,caseSensitive=True)
 ```
 ### Output
 
