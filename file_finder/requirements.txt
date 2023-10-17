@@ -1,0 +1,3 @@
+Python Modules required:
+1. os
+2. mmap
