@@ -1,3 +1,4 @@
 #add key in following format only
 #key : your class or function name (where key is convert_{ext1}_to_{ext2})
 convert_srt_to_lrc: ConvertSRTtoLRC
+convert_pdf_to_docx: PDFtoDOCXConverter
