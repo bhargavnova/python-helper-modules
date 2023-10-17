@@ -9,7 +9,7 @@ class PDFtoDOCXConverter:
         self.pdf_file = pdf_file
         self.docx_file = docx_file
 
-    def convert(self):
+    def convert_pdf_to_docx(self):
         pdf = PyPDF2.PdfReader(self.pdf_file)
         docx = Document()
 
@@ -40,4 +40,4 @@ class PDFtoDOCXConverter:
 
 if __name__ == "__main__":
     pdf_converter = PDFtoDOCXConverter("input.pdf", "output.docx")
-    pdf_converter.convert()
+    pdf_converter.convert_pdf_to_docx()
