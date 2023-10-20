@@ -1,7 +1,7 @@
 import json
 import csv
 
-class CSVtoJSONConverter:
+class ConvertCSVtoJSON(object):
     def __init__(self, csv_filename: str, json_filename: str):
         self.csv_file = csv_filename
         self.json_file = json_filename
@@ -21,5 +21,5 @@ class CSVtoJSONConverter:
         self.dump_to_json(self.read_csv())
 
 if __name__ == "__main__":
-    pdf_converter = CSVtoJSONConverter("input.csv", "output.json")
+    pdf_converter = ConvertCSVtoJSON("input.csv", "output.json")
     pdf_converter.convert_csv_to_json()
