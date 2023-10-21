@@ -1,5 +1,7 @@
 import pytest
-from wikipedia_search import *
+import requests
+from wikipedia_search.wikipedia_search import (generate_url, wikipedia_search, NoSearchResultsError,
+                                               InvalidLanguageError, SearchFailedError, get_valid_languages)
 
 
 # Test generate_url function
@@ -45,6 +47,23 @@ def test_wikipedia_search_with_language_failure():
         wikipedia_search("Python", lang="invalid_language")
 
 
+def test_get_valid_languages_request_error(monkeypatch):
+    # Mock the requests.get() method to return a 404 status code
+    def mock_requests_get(url, params):
+        class MockResponse:
+            def __init__(self, status_code):
+                self.status_code = status_code
+
+        return MockResponse(404)
+
+    # Apply the mock to the requests.get() method
+    monkeypatch.setattr(requests, 'get', mock_requests_get)
+
+    # Ensure that calling get_valid_languages() raises NoSearchResultsError
+    with pytest.raises(NoSearchResultsError):
+        get_valid_languages()
+
+
 # Run the tests
 if __name__ == "__main__":
-    pytest.main()
+    pytest.main() # pragma: no cover

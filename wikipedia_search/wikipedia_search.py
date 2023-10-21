@@ -31,7 +31,7 @@ def get_valid_languages():
         return valid_languages
     else:
         # Handle API request error
-        return []
+        raise NoSearchResultsError("API resquest Error for languages list")
 
 
 def check_if_valid_language(lang: str) -> bool:
@@ -106,5 +106,5 @@ def wikipedia_search(query: str, lang: str = "en"):
 
 if __name__ == "__main__":
 
-    res = wikipedia_search(query="python", lang="en")
-    print(res)
+    res = wikipedia_search(query="python", lang="en")  # pragma: no cover
+    print(res)  # pragma: no cover

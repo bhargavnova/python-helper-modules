@@ -40,7 +40,12 @@ pip install pytest
 ```shell
 pytest .\tests\tests_wikipedia_search.py
 ```
-This will run the test suite and provide feedback on the functionality and correctness of the wikipedia_search script.
+This will run the test suite and provide feedback on the functionaltox
+ity and correctness of the wikipedia_search script.
+
+```shell
+pytest --cov-report term-missing --cov=wikipedia_search
+```
 
 <br/>
 
