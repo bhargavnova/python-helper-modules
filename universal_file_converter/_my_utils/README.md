@@ -5,8 +5,9 @@ Developing a versatile Python script that serves as a universal file converter, 
 ## Features
 
 1. srt-lrc #added by (@bhargavnova |github)
-2. pdf-docx #added by (@harshjais369 | github)
+2. pdf-docx #added by (@harshjais369 |github)
 3. txt-csv #added by (@kom-senapati |github)
+4. md-html #added by (@kom-senapati |github)
 
 ## Usage
 
