@@ -4,3 +4,4 @@
 4. json-csv (convert .json to .csv)
 5. txt-csv (convert .txt to .csv)
 6. md-html (convert .md to .html)
+7. csv-xml (convert .csv to .xml)
