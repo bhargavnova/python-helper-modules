@@ -2,4 +2,6 @@
 2. pdf-docx (convert .pdf to .docx)
 3. csv-json (convert .csv to .json)
 4. json-csv (convert .json to .csv)
-5. csv-xml (convert .csv to .xml)
+5. txt-csv (convert .txt to .csv)
+6. md-html (convert .md to .html)
+7. csv-xml (convert .csv to .xml)

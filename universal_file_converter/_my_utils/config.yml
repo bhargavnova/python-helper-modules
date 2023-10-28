@@ -4,4 +4,6 @@ convert_srt_to_lrc: ConvertSRTtoLRC
 convert_pdf_to_docx: PDFtoDOCXConverter
 convert_csv_to_json: ConvertCSVtoJSON
 convert_json_to_csv: ConvertJSONtoCSV
+convert_txt_to_csv: ConvertTXTtoCSV
+convert_md_to_html: ConvertMDtoHTML
 convert_csv_to_xml: ConvertCSVtoXML
