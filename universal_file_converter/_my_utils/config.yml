@@ -7,3 +7,4 @@ convert_json_to_csv: ConvertJSONtoCSV
 convert_txt_to_csv: ConvertTXTtoCSV
 convert_md_to_html: ConvertMDtoHTML
 convert_csv_to_xml: ConvertCSVtoXML
+convert_txt_to_pdf: TextToPDFConverter
