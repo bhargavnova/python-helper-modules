@@ -10,6 +10,7 @@ Developing a versatile Python script that serves as a universal file converter, 
 4. md-html #added by (@kom-senapati |github)
 5. txt-pdf #added by (@pranalibose |github)
 6. pdf-txt #added by (@pranalibose |github)
+7. html-md #added by (@kom-senapati |github)
 
 ## Usage
 
