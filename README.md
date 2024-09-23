@@ -1,7 +1,7 @@
 <img src="._repo_assets/python-helper-modules.png" width="100%">
 <br/>
 
-[![Hacktoberfest 2023](https://img.shields.io/badge/Hacktoberfest-2023-blueviolet.svg)](https://hacktoberfest.com/participation/) 
+[![Hacktoberfest 2023/2024](https://img.shields.io/badge/Hacktoberfest-2023-blueviolet.svg)](https://hacktoberfest.com/participation/) 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 [![GitHub stars](https://img.shields.io/github/stars/bhargavnova/python-helper-modules.svg?style=social&label=Star&maxAge=2592000)](https://github.com/bhargavnova/python-helper-modules)
 
