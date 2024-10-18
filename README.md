@@ -18,10 +18,17 @@
 [![Category: Automation](https://img.shields.io/badge/Category-Automation-blueviolet)](https://github.com/bhargavnova/python-helper-modules/)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-blueviolet)](https://github.com/bhargavnova/python-helper-modules/)
 
-# You can contribute here as well
+# You can Contribute through (1)...
+## you can add your own functions, or take one from mentioned in the same issue!
 💫 Different files converter :: https://github.com/bhargavnova/python-helper-modules/issues/55
+1. clone this repo, add ur conversation function inside `_my_utils/_utils/`
+2. there is one function added already `convert_srt_to_lrc` use that as a reference.
+3. Just have to add your own function.
+4. modify the `config.yml` file.
+5. modify the `func_list.txt` file.
 
-# Python Helper Modules / Scripts
+# You can Contribute through (2)...
+## Python Helper Modules / Scripts
 
 Welcome to this inclusive and dynamic Python repository! Whether you're just starting your coding journey or you're a seasoned developer, this is the perfect place for you. Our mission is to create a comprehensive toolkit that empowers developers of all levels with useful Python modules and scripts.
 
