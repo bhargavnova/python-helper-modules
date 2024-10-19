@@ -18,33 +18,48 @@ python "Path/To/PythonFile" "Path/To/Directory/To/Be/Sorted"
 eg. python "C:/Users/test/FileSorter/fileSort.py" "C:/Users/test/Downloads"
 ```
 
-- Or alternatively, with a slight setup process, you can run "FileSort" in any powershell terminal and it'll sort the CWD.
+- Or alternatively, with a slight setup process, you can run "FileSort" in any terminal and it'll sort the CWD.
 
-## Setup for FileSort PWSH Function
+## Setup for FileSort PWSH/Windows Function
 
 - 1. Open Powershell, type the command `notepad $PROFILE`
 - 2. Add a function to the profile:
 
 ```
-function fileSort {
+function FileSort {
     $cwd = Get-Location
-    python "Path/To/PyFile" $cwd # Change Path/To/PyFile with location where the python file is saved.
+    python "Path/To/PyFile" $cwd # Change Path/To/PyFile with the location where the python file is saved.
 }
 ```
 
-- 3. After the setup, you can open powershell in any folder and run the command "FileSort" with which, it's going to sort all the files in the working directory
+- 3. After the setup, you can run the command "fileSort" in any folder, with which, it's going to sort all the files in the current folder.
+
+## Setup for FileSort bash/zsh Function
+
+- 1. Open your zsh/bash config file
+- 2. Add this code to the config:
+
+```
+function FileSort() {
+    python "Path/To/PyFile" . # Change Path/To/PyFile with the location where the python file is saved.
+}
+```
+
+- 3. After the setup, you can run the command "fileSort" in any folder, with which, it's going to sort all the files in the current folder.
 
 ## Requirements
 
+- As the file was compiled into an executable which can be found in the Releases section, there are no requirements for it to be ran.
+- However, if you want to compile and run the program yourself, you would require:
 - Python3: As this project was built entirely with Python, Python3 is required with the latest version being recommended.
 - The libraries used which need to be installed are `tkinter` and `customtkinter`, as these were used to make the user interface for the program.
 - You can install them by:
 - ```
-  pip install tk
-  pip install customtkinter
+   pip install -r requirements.txt
   ```
+  or
 - ```
-  pip install -r requirements.txt
+  pip install tk customtkinter
   ```
 
 ## Sorting Map:
