@@ -10,3 +10,4 @@ convert_csv_to_xml: ConvertCSVtoXML
 convert_txt_to_pdf: TextToPDFConverter
 convert_pdf_to_txt: PDFtoTextConverter
 convert_html_to_md: ConvertHTMLtoMD
+convert_docx_to_pdf: DOCXtoPDFConverter

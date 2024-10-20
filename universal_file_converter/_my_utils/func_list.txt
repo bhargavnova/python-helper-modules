@@ -6,3 +6,4 @@
 6. md-html (convert .md to .html)
 7. csv-xml (convert .csv to .xml)
 8. html-md (convert .html to .md)
+9. docx-pdf (convert .docx to .pdf)
