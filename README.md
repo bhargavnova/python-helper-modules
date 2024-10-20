@@ -210,6 +210,10 @@ module_name.function_name(argument)
 <a href="https://github.com/HemanthTenneti" title=" 🎉 Thank you for your outstanding contribution HemanthTenneti">
   <img src="https://avatars.githubusercontent.com/u/47469051?size=50" width="50" height="50">
 </a>
+&nbsp;
+<a href="https://github.com/naylin-dev" title=" 🎉 Thank you for your outstanding contribution naylin-dev">
+  <img src="https://avatars.githubusercontent.com/u/24827948?size=50" width="50" height="50">
+</a>
 
 <br/>
 <img src="._repo_assets/wave.svg" width="100%">
