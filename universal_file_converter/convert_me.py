@@ -15,13 +15,13 @@ import yaml
     other wise either the function will not run, or script will break haha (well that's not good, I will have to check what when worng if that happens)
 """
 
-def _exec_modules():
+def _exec_modules(search_function=None):
     #import all the function dynamically
     #do not modify thi function
 
     for dir in os.listdir(utils_dir):
         if not dir.endswith('.py'):
-            module_files = [f for f in os.listdir(os.path.join(utils_dir, dir)) if 'convert_' in f and f.endswith('.py')]
+            module_files = [f for f in os.listdir(os.path.join(utils_dir, dir)) if 'convert_' in f and f.endswith('.py') and search_function in f]
             if module_files:
                 file_name = module_files[0]
                 module_name = os.path.splitext(file_name)[0]
@@ -86,7 +86,8 @@ if __name__ == "__main__":
             sys.exit()
 
         #load modules (exec all the modules dynamically)
-        _exec_modules()
+        _exec_modules(search_function)
+        #patch01 : only exec modules that are required, to avoid errors, when certain requirements are missing for other files!
         if not modules.get(search_function):  #check if function exists in modules
             print('[+] added function does not exists ....')
             sys.exit()

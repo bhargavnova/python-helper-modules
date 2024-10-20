@@ -23,9 +23,10 @@ class TextToPDFConverter:
         # Save the PDF to the specified filepath
         pdf.output(self.pdf_filepath)
 
-# Usage example
-text_filepath = 'input.txt'
-pdf_filepath = 'output.pdf'
+if __name__ == "__main__":
+    # Usage example
+    text_filepath = 'input.txt'
+    pdf_filepath = 'output.pdf'
 
-converter = TextToPDFConverter(text_filepath, pdf_filepath)
-converter.convert_txt_to_pdf()
+    converter = TextToPDFConverter(text_filepath, pdf_filepath)
+    converter.convert_txt_to_pdf()
