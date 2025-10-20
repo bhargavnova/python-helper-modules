@@ -1,6 +1,7 @@
 <img src="._repo_assets/python-helper-modules.png" width="100%">
 <br/>
 
+[![Hacktoberfest 2025](https://img.shields.io/badge/Hacktoberfest-2025-purple.svg)](https://hacktoberfest.com/participation/)
 [![Hacktoberfest 2023](https://img.shields.io/badge/Hacktoberfest-2023-red.svg)](https://hacktoberfest.com/participation/)
 [![Hacktoberfest 2024](https://img.shields.io/badge/Hacktoberfest-2024-blue.svg)](https://hacktoberfest.com/participation/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
