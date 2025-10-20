@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Paste Images</title>
+<style>
+  body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu; margin:32px;}
+  .zone{border:2px dashed #aaa; border-radius:10px; padding:30px; text-align:center}
+  .muted{color:#666; font-size:14px}
+  .grid{margin-top:24px; display:grid; grid-template-columns:repeat(auto-fill,minmax(160px,1fr)); gap:12px}
+  .card{border:1px solid #eee; border-radius:8px; padding:8px}
+  img{max-width:100%; height:auto; display:block; border-radius:6px}
+  .row{margin-top:12px; display:flex; gap:8px; align-items:center; flex-wrap:wrap}
+  input[type=text]{padding:6px 8px; border:1px solid #ccc; border-radius:6px; flex:1 1 240px}
+  button{padding:8px 12px; border:0; border-radius:6px; cursor:pointer}
+</style>
+</head>
+<body>
+  <h1>Paste images here</h1>
+  <div class="zone" id="zone">
+    <p>Press <b>Ctrl/Cmd + V</b> to paste an image, or drop files.</p>
+    <p class="muted">Saved to: <code>__OUT_DIR__</code></p>
+    <div class="row">
+      <input id="namePrefix" type="text" placeholder="Optional name prefix" />
+      <button id="refreshBtn">Refresh</button>
+    </div>
+  </div>
+
+  <div class="grid" id="grid"></div>
+
+<script>
+const TOKEN = "__TOKEN__";
+const grid = document.getElementById('grid');
+const zone = document.getElementById('zone');
+const prefixInput = document.getElementById('namePrefix');
+const refreshBtn = document.getElementById('refreshBtn');
+
+function show(items){
+  grid.innerHTML = "";
+  for (const it of items){
+    const card = document.createElement('div');
+    card.className = "card";
+    card.innerHTML = `
+      <img src="${it.url}" alt="${it.name}" />
+      <div class="muted">${it.name} (${(it.bytes/1024).toFixed(1)} KB)</div>
+    `;
+    grid.appendChild(card);
+  }
+}
+
+async function loadRecent(){
+  try{
+    const r = await fetch('/recent.json');
+    const j = await r.json();
+    show(j.items || []);
+  }catch(e){}
+}
+
+async function uploadFiles(files){
+  const form = new FormData();
+  for (const f of files){
+    form.append('file', f, f.name || 'pasted');
+  }
+  form.append('prefix', prefixInput.value.trim());
+  const r = await fetch('/upload', {
+    method: 'POST',
+    headers: { 'x-token': TOKEN },
+    body: form
+  });
+  const j = await r.json();
+  if (!j.ok){ alert('Upload failed'); return; }
+  loadRecent();
+}
+
+document.addEventListener('paste', (e) => {
+  const items = e.clipboardData && e.clipboardData.items;
+  if (!items) return;
+  const files = [];
+  for (const it of items){
+    if (it.kind === 'file'){
+      const f = it.getAsFile();
+      if (f && f.type.startsWith('image/')) files.push(f);
+    }
+  }
+  if (files.length){
+    e.preventDefault();
+    uploadFiles(files);
+  }
+}, false);
+
+zone.addEventListener('dragover', e => { e.preventDefault(); });
+zone.addEventListener('drop', e => {
+  e.preventDefault();
+  const files = Array.from(e.dataTransfer.files).filter(f => f.type.startsWith('image/'));
+  if (files.length) uploadFiles(files);
+});
+
+refreshBtn.addEventListener('click', loadRecent);
+loadRecent();
+</script>
+</body>
+</html>
