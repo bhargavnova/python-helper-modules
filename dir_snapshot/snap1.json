@@ -1,0 +1,25 @@
+{
+  "root": "<project_root_will_be_here!>",
+  "created": 1760962248,
+  "hash_mode": "hash",
+  "items": [
+    {
+      "path": "README.txt",
+      "size": 282,
+      "mtime": 1760961975,
+      "sha256": "767b35824dfd4842e0dae1c2458c2a50e743438fc2c1bc9cefc30a696dab7814"
+    },
+    {
+      "path": "dir_snapshot.py",
+      "size": 2228,
+      "mtime": 1760961931,
+      "sha256": "86d64f4286e85f8cad87cf7c7b1aa853599d31b7d3ef96a5b511494e57323250"
+    },
+    {
+      "path": "main.py",
+      "size": 1163,
+      "mtime": 1760961956,
+      "sha256": "50950a3019f742e0d824aa91253517f183fa07464ce083dfbfa02b3afbef31da"
+    }
+  ]
+}
