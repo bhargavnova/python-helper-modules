@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Edit Data</title>
+                <style>.nebulae-form{max-width:680px;margin:40px auto;padding:20px;border:1px solid #ddd;border-radius:8px;font-family:sans-serif}
+.ne-field-group{display:flex;flex-direction:column;margin-bottom:12px}
+.ne-field-group>label{font-size:14px;margin-bottom:6px}
+.ne-field-group input, .ne-field-group textarea, .ne-field-group select{padding:8px;border:1px solid #ccc;border-radius:6px}
+.sub-btn{padding:10px 16px;border:0;border-radius:6px;cursor:pointer}
+.nebulae-errors{max-width:680px;margin:20px auto 0;color:#b00020}</style>
+            </head>
+            <body>
+                <div class="ne-body"><form method="post" action="/submit" class="nebulae-form"><div class="ne-field-group" ><label for="nebulae-1">Name</label><input type="text" id="nebulae-1" name="name" required="true" value="Testing json based storage" /></div><div class="ne-field-group" ><label for="nebulae-2">Trigger</label><input type="text" id="nebulae-2" name="trigger" required="true" value="testing_json_based_storage" /></div><div class="ne-field-group" ><label for="nebulae-3">Description</label><textarea id="nebulae-3" name="description">Random Description</textarea></div><div class="ne-field-group" ><label for="nebulae-4">Tags (comma)</label><input type="text" id="nebulae-4" name="tags" value="python, form_collector" /></div><div class="ne-field-group" ><label for="nebulae-5">Script Dir</label><input type="text" id="nebulae-5" name="script_dir" required="true" value="/path/to/universe" /></div><div class="ne-field-group" ><label for="nebulae-6">Trigger Script</label><input type="text" id="nebulae-6" name="trigger_script" required="true" value="bigbang" /></div><div class="ne-field-group" ><label for="nebulae-7">Args</label><input type="text" id="nebulae-7" name="args" value="comet" /></div> <button class="sub-btn" type="submit">Update</button></form></div>
+            </body>
+            </html>

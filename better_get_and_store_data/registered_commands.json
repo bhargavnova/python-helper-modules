@@ -1,0 +1,17 @@
+{
+  "data": [
+    {
+      "name": "Testing json based storage",
+      "trigger": "testing_json_based_storage",
+      "description": "Random Description",
+      "tags": "python, form_collector",
+      "script_dir": "/path/to/universe",
+      "trigger_script": "bigbang",
+      "args": "comet",
+      "id": 1
+    }
+  ],
+  "meta": {
+    "next_id": 2
+  }
+}

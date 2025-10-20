@@ -1,0 +1,43 @@
+[
+  {
+    "name": "name",
+    "title": "Name",
+    "type": "text",
+    "required": true,
+    "unique": true
+  },
+  {
+    "name": "trigger",
+    "title": "Trigger",
+    "type": "text",
+    "required": true,
+    "unique": true
+  },
+  {
+    "name": "description",
+    "title": "Description",
+    "type": "textarea"
+  },
+  {
+    "name": "tags",
+    "title": "Tags (comma)",
+    "type": "text"
+  },
+  {
+    "name": "script_dir",
+    "title": "Script Dir",
+    "type": "text",
+    "required": true
+  },
+  {
+    "name": "trigger_script",
+    "title": "Trigger Script",
+    "type": "text",
+    "required": true
+  },
+  {
+    "name": "args",
+    "title": "Args",
+    "type": "text"
+  }
+]
